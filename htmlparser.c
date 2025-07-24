@@ -36,7 +36,7 @@ void parser(char *string)
     }
     //removing trailing spaces from the end
 
-    while(string[strlen(string)-1]==' ') //[strlen(string) - 1] isiliye kiya hai kyuki aakhri character hamara null character hoga 
+    while(string[strlen(string)-1]==' ') 
     {
         string[strlen(string)-1] = '\0';
     }
